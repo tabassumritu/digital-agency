@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 17px;
+    font-style: italic;
+    align-items: center;
+}
+.nav-container{
+    display: flex;
+    background-color: gray;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+.banner-container{
+    height: 100vh;
+    background-image: url("./asset/image/background.jpg"), 
+    linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4));
+    background-blend-mode: overlay ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction:;
+}
+.banner-info{
+    
+}
+.primary{
+    color: red;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+.description{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    padding: 12px 20px;
+    border: none ;
+}
+.bg-primary{
+    background-color: red;
+    color: white;
+}
+.service-container{
+    height: 100vh;
+    background-image: url("./asset/image/footer-bg.png"), 
+    linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.box{
+    padding: 50px;
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.service-description{
+    width: 50%;
+}
+.first-two-box{
+    display: flex;
+    gap: 3px;
+    margin-top: 5px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid red;
+    padding-right: 20px;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+}
+.appointment-container{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -30px;
+    align-items: center;
+}
